@@ -1,0 +1,34 @@
+import java.util.*;
+
+class Matrix
+{
+
+    public static void main(String args[])
+    {
+        int matrix[][] = new int [3][3];
+        int n = matrix.length;
+        int m = matrix[0].length;
+
+        Scanner sc = new Scanner();
+
+        System.out.println("enter values for matrix");
+        
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<m;j++)
+            {
+               int matrix[][]= sc.nextInt();
+            }
+        }
+
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<m;j++)
+            {
+                System.out.print("matrix is"+matrix+" ");
+            }
+            System.out.println();
+        }
+    }
+
+}
